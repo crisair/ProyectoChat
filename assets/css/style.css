@@ -1,0 +1,240 @@
+
+
+
+/* modificadors generales*/
+body{
+    margin:0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Chat__img{
+   
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0%;
+    width: 25px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    width: 5em;
+    height: 5em;
+    border-radius:50%;
+}
+.Container__Chat__h2{
+    font-size: 0.8em;
+    
+}
+
+
+.Container__Chat__p{
+    font-size: 1.0em;
+    text-align: center;
+    
+}
+ /*containes de todo los elementos, chat y principal */
+.Container{
+    display: flex;
+    border-bottom: 0.9px solid #FFFFFF;
+    
+}
+
+
+/* para editar  el boton */
+
+.Container__Chat__new{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    border-bottom: 0.9px solid #FFFFFF;
+}
+button{
+    width: 10em;
+    height: 5em;
+    margin: 20px;
+}
+
+button:hover{ 
+    background-color: #1F618D;
+    color: #FFFFFF;
+    transform: scale(0.8);
+    transition-duration: 600ms;
+}
+
+
+/* para editar los elementos dentro de las cajas la foto y las letras */
+
+.Container__Chat{
+    background-color: #ddecf6 ;
+    overflow-y: scroll;   
+    scroll-behavior: smooth;
+    height:100vh;
+   
+}
+
+.Container__Chat__elementos{
+    display: flex;
+    border-bottom: 0.9px solid #FFFFFF;
+    padding: 5px;
+}
+
+.Chat__txt{
+    justify-content: center;
+    padding-top: 1em;
+    padding-left: 0.5em;
+    padding-bottom:0.3em;
+}
+
+.Chat__img_1{
+   
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0%;
+    width: 25px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+
+   
+}
+
+
+/*editar el chat 1*/
+
+.Container__Chat__1:hover{
+
+    background-color: #1F618D;
+    color: #FFFFFF;
+    transition-duration: 300ms;
+    transition-timing-function:ease-in;
+    transform: scale(0.9);
+}
+
+.Chat__img_1:hover{
+    background-color: #dae2e7;
+    transform: scale(0.9);
+    transition-duration: 300ms;
+
+}
+
+/*editar chat 2*/
+
+.Container__Chat__2:hover{
+
+    background-color: #1F618D;
+    color: #FFFFFF;
+    transition-timing-function:ease-in;
+    transform: scale(0.9);
+    transition-duration: 300ms;
+}
+
+/*editar chat 3*/
+
+.Container__Chat__3:hover{
+
+    background-color: #1F618D;
+    color: #FFFFFF;
+    transition-timing-function:ease-in;
+    transform: scale(0.9);
+    transition-duration: 300ms;
+    
+}
+/*editar chat 4*/
+
+.Container__Chat__4:hover{
+
+    background-color: #1F618D;
+    color: #FFFFFF;
+    transition-timing-function:ease-in;
+    transform: scale(0.9);
+    transition-duration: 300ms;
+}
+
+
+
+/* para editar  el container principal*/
+
+
+.Container__Principal{
+    display: flex;
+    flex-direction: column;
+    background-color:#EBF5FB ;
+    border-color: #ffffff; 
+    width: 80vw;   
+}
+
+.principal__txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.principal_img{
+    border-radius: 0%;
+
+}
+
+.Container__principal_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ /* para modificar el header*/
+
+.Container__Principal__header{
+    height: 10%;
+    background-color: rgb(180, 230, 230);
+
+}
+
+/* para modificar el Chat*/
+
+.Container__Principal__chat{
+    height: 100%;
+    width: 100;
+    align-items: center;
+    background-color: rgb(228, 236, 236);
+
+}
+/* para modificar el espacio del teclado*/
+
+.Container__Principal__keysboar{
+    display:flex;
+    flex-direction: row;
+    height: 20%;
+    background-color: rgb(42, 70, 70);   
+} 
+
+/*para modificar el imput*/
+
+.Container__Principal__input{
+    height: 90%;
+    width: 100%;
+}
+
+.Container__Principal__input input{
+    height: 100%;
+    width: 100%;
+   background-color: #ebeff2;
+}
+
+.Container__Principal__enter{
+    align-items: flex-end;
+    background-color:  #4c95c5;
+    width: 30%;
+    height: 100%;
+}
+
+.Container__Principal__enter:hover{
+    color: #FFFFFF;
+    background-color: #225170;
+    transition-timing-function:ease-in;
+    transform: scale(1.0);
+    transition-duration: 300ms;
+
+}
