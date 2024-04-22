@@ -31,6 +31,9 @@ body{
     text-align: center;
     
 }
+
+
+
  /*containes de todo los elementos, chat y principal */
 .Container{
     display: flex;
@@ -48,15 +51,17 @@ body{
     padding: 5px;
     border-bottom: 0.9px solid #FFFFFF;
 }
-button{
+
+.newChat{
     width: 10em;
     height: 5em;
     margin: 20px;
+    padding: 5px;
 }
 
-button:hover{ 
+.newChat:hover{ 
     background-color: #1F618D;
-    color: #FFFFFF;
+    color: #c9c8d7;
     transform: scale(0.8);
     transition-duration: 600ms;
 }
@@ -94,8 +99,27 @@ button:hover{
     width: 25px;
     margin: 5px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+}
+.Chat__img_activo{
 
+    border-radius: 50%;
+    border: 1px solid #ccc;  
+    max-width: 100%;
+    max-height: auto;
+    
+}
+
+.Chat__img__button{
+   border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    border: 1px solid #ccc;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    border-radius: 50%;
    
 }
 
